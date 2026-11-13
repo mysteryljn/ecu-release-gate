@@ -1,0 +1,9 @@
+{
+  "release": "demo-1.2.0",
+  "checks": [
+    {"name": "firmware-image", "report": "image.json"},
+    {"name": "memory-budget", "report": "size.json"},
+    {"name": "sbom-policy", "report": "sbom.json"},
+    {"name": "security-findings", "report": "sarif.json"}
+  ]
+}
